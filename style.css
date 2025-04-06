@@ -4,18 +4,21 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    color: #333;
+    
 }
 
 header {
     background: #0682ff;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
 }
 
+main {
+    padding: 20px;
+}
 .hero {
-    background-color: #000000; /* Black background */
+    background: linear-gradient(to right, #0073e6, #00c6ff); /* Gradient background */
     color: white;
     padding: 80px 0;
     width: 100vw; /* Full viewport width */
@@ -24,23 +27,28 @@ header {
     left: 0;
     right: 0;
     overflow-x: hidden; /* Ensure no horizontal scrollbars */
+    
 }
 h2 {
-    color: #0073e6;
+    color: #000000;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
+    
 }
 
 p {
     font-size: 20px;
+    margin-left: 40px;
 }
 .cyber-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 200px;
-    padding: 10px;
+    padding: 20px;
     flex-wrap: wrap;
+    text-align: left;
+    
   }
 .content {
     flex: 1;
@@ -67,6 +75,7 @@ p {
     text-decoration: none;
     font-weight: 600;
     transition: background-color 0.3s ease;
+    margin-left: 150px;
   }
   
   .btn:hover {
