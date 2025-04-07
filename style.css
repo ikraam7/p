@@ -14,9 +14,7 @@ header {
     padding: 40px;
 }
 
-main {
-    padding: 20px;
-}
+
 .hero {
     background: linear-gradient(to right, #0073e6, #00c6ff); /* Gradient background */
     color: white;
@@ -363,6 +361,7 @@ ul li {
 
 .cyber-regulations h2 {
     font-size: 36px;
+    text-align: center;
     color: #1f2937;
     margin-bottom: 20px;
     font-weight: 700;
@@ -410,7 +409,7 @@ ul li {
     font-size: 16px;
     color: #374151;
     line-height: 1.5;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .regulation-category-title {
